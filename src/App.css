@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300&display=swap");
+.app {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  gap: 20px;
+  padding-top: 20px;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+  height: 100%;
+}
+
+Body{
+  background-image: url(/src/img/nft.jpg);
+}
+
+
+.app button {
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  cursor: pointer;
+  border: 2px solid;
+  box-shadow: 1px 1px 0px 0px, 1px 1px 0px 0px, 1px 1px 0px 0px, 1px 1px 0px 0px,
+    1px 1px 0px 0px;
+  
+}
+
+.minter{
+  background-color: #00DBDE;
+background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+
+  border: 1px solid #130202;
+  border-radius: 45px;
+  width: 40%;
+ 
+}
+
+.staker{
+  background-color: #00DBDE;
+background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+
+  border: 1px solid #080101;
+  border-radius: 45px;
+  width: 40%;
+}
+
+.claimer{
+  background-color: #00DBDE;
+background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+
+  border: 1px solid #080101;
+  border-radius: 45px;
+  width: 40%;
+}
+.staker button{
+  margin-left: 10px;;
+}
+
+
+

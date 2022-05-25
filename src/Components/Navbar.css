@@ -1,0 +1,32 @@
+.navbar{
+    
+
+    background-color: #00DBDE;
+background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+
+  
+    text-align: center;
+    padding: 10px;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;;
+}
+.navbar button{
+    display: inline;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;;
+    font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  cursor: pointer;
+  border: 2px solid;
+  box-shadow: 1px 1px 0px 0px, 1px 1px 0px 0px, 1px 1px 0px 0px, 1px 1px 0px 0px,
+    1px 1px 0px 0px;
+    border-radius: 30px;
+}
+
+.navbar h2{
+    display: inline;
+    padding: 220px;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300&display=swap');
